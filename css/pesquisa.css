@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a img{
+    width: 50px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: -55px;
+}
+.form{
+    margin-left: 230px;
+    margin-top: -10px;
+}
+input[type=submit],
+input[type=button]{
+    width: 10%;
+    height: 30px;
+    background-color: #000a1a;
+    color: aliceblue;
+    margin-right: 125px;
+    border-radius: 5px;
+    transition: 2s;
+    margin-top: 25px;
+    border: 0;
+
+}
+input[type=submit]:hover{
+    background-color: #3706d6;
+}
+
+.form form input[type=number]{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 8px 2px 2px #9e9d9b;
+    border: 1px solid #e0dfda;
+
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+.form input[type=submit], 
+.form input[type=button]{
+    color:white;
+    height: 40px;
+    width: 90px;
+    margin-left:-95px;
+    background-color: #000a1a;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.form input[type=submit]:hover, 
+.form input[type=submit]:hover{
+    background-color: #010147;
+}
+#pesquisa{
+    width: 80%;
+    height: 500px;
+    border: 1px solid #e0dfda;
+    box-shadow: 8px 2px 2px #9e9d9b;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+.pesquisa form input, 
+.pesquisa form select{
+    width: 90%;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #e0dfda;
+    box-shadow: 2px 1px 1px #9e9d9b;
+    display: inline-block;
+
+}
+
+.pesquisa form textarea{
+    width: 90%;
+    height: 90px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #e0dfda;
+    box-shadow: 2px 1px 1px #9e9d9b;
+    display: inline-block;
+}
+.pesquisa form label{
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.dados{
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+}
+.dados_two, 
+.dados_tree{
+    display: inline-block;
+    width: 30%;
+
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}

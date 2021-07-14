@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+
+.pessoais h1, 
+.contato h1, 
+.familia h1,
+.salvar h1{
+    color: #0f004a;
+    font-size: 25px;
+    padding: 10px;
+
+
+}
+.voltar img{
+    width: 30px;
+    padding: 10px;
+}
+p{
+    text-align: left;
+    font-size: 22px;
+    color: #070124;
+    padding: 5px;
+}
+
+.contato{
+    width: 30%;
+    height: 480px;
+    border: 1px solid #e0dfda;
+    box-shadow: 8px 2px 2px #9e9d9b;
+    margin-left: 450px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.pessoais{
+    width: 70%;
+    height: 410px;
+    border: 1px solid #e0dfda;
+    box-shadow: 8px 2px 2px #9e9d9b;
+    margin-left: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+.one{
+    display: inline-block;
+    width: 45%;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.two{
+    display: inline-block;
+    width: 48%;
+}
+
+
+.familia{
+    width: 30%;
+    height: 550px;
+    border: 1px solid #e0dfda;
+    box-shadow: 8px 2px 2px #9e9d9b;
+    margin-left: 450px;
+    border-radius: 10px;
+    margin-top: -25px;
+
+}
+#contato, 
+#familia, 
+#salve{
+    display: none;
+
+}
+form .familia textarea{
+    width: 95%;
+    height: 100px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #e0dfda;
+    box-shadow: 2px 1px 1px #9e9d9b;
+}
+
+form .pessoais input, 
+form .pessoais select,
+form .contato input, 
+form .contato select,
+form .familia select{
+    width: 95%;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #e0dfda;
+    box-shadow: 2px 1px 1px #9e9d9b;
+}
+
+
+form .pessoais label, 
+form .contato label,
+form .familia label{
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.pessoais p{
+    width: 25%;
+    height: 25px;
+    border: 1px solid #015913;
+    box-shadow: 2px 1px 1px #9e9d9b;
+    border-radius: 2px;
+    background-color: #015913;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+.pessoais p:hover, 
+.contato p:hover, 
+.familia p:hover{
+    background-color: #027019;
+}       
+                
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+.contato p, 
+.familia p{
+    display: inline-block;
+    width: 25%;
+    height: 25px;
+    border: 1px solid #015913;
+    box-shadow: 2px 1px 1px #9e9d9b;
+    border-radius: 2px;
+    background-color: #015913;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 60px;
+}
+.linha{
+    border-top: 1px solid #e0dfda;
+    margin-top: 15px;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.salvar{
+    width: 20%;
+    height: 120px;
+    border: 1px solid #e0dfda;
+    box-shadow: 2px 1px 1px #9e9d9b;
+    border-radius: 2px;
+    margin-top: 225px;
+    margin-left: 500px;
+}
+.salvar p{
+    display: inline-block;
+    width: 30%;
+    height: 25px;
+    border: 1px solid #87031b;
+    box-shadow: 2px 1px 1px #9e9d9b;
+    border-radius: 5px;
+    background-color: #87031b;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+.salvar input[type=submit]{
+    display: inline-block;
+    width: 30%;
+    height: 38px;
+    border: 1px solid #015913;
+    box-shadow: 2px 1px 1px #9e9d9b;
+    border-radius: 5px;
+    background-color: #015913;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+.box{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 350px;
+    padding: 10px;
+}
+.box h1{
+    font-size: 25px;
+    color: #000324;
+    text-align: center;
+    margin-right: 55px;
+}
+.cadastro{
+    border: 1px solid #e0dfda;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 8px 2px 2px #9e9d9b;
+    margin-top:-90px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.consultar{
+    border: 1px solid #e0dfda;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 50px;
+    box-shadow: 8px 2px 2px #9e9d9b;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cadastro img{
+    width: 60px;
+    height: 60px;
+    padding: 28px;
+}
+
+.consultar img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+
+}
+
+.cadastro a, .consultar a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0f0663;
+}
+p{
+    color: #e8e8e8;
+    text-align: center;
+}
